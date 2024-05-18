@@ -22,6 +22,7 @@ Install `python-docx` via pip:
 
 ```sh
 pip install python-docx
+```
 
 ### Running the Program
 1. Clone the repository or download the `cryptioner.py` file.
@@ -30,6 +31,7 @@ pip install python-docx
 
 ```sh
 python cryptioner.py
+```
 
 ### Usage
 
@@ -38,6 +40,7 @@ The program will generate a random encryption key, encrypt the file's content, s
 
 ## Example
 
+```sh
 ------------------------Welcome To Cryptioner------------------------
 
 Enter the path of your file (text or word): example.txt
@@ -49,7 +52,7 @@ The encrypted file has been saved as: example_encrypted.txt
 The decrypted file has been saved as: example_decrypted.txt
 
 Thank you for using Cryptioner!😉
-
+```
 
 ### Code Overview
 
