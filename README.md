@@ -33,7 +33,7 @@ pip install python-docx
 python cryptioner.py
 ```
 
-### Usage
+## Usage
 
 When you run the program, it will ask you to enter the path of a text or word file.
 The program will generate a random encryption key, encrypt the file's content, save it to a new file, and then decrypt it back to the original content for demonstration.
@@ -54,14 +54,14 @@ The decrypted file has been saved as: example_decrypted.txt
 Thank you for using Cryptioner!😉
 ```
 
-### Code Overview
+# Code Overview
 
-# The Cryptioner class has two main methods:
+## The Cryptioner class has two main methods:
 
 - Encrypt(): Joins the characters of the string with the encryption key.
 - Decrypt(): Splits the encrypted string using the encryption key to retrieve the original string.
 
-# File Handling Methods
+## File Handling Methods
 
 - read_text_file(file_path): Reads the contents of a text file.
 - write_text_file(file_path, content): Writes content to a text file.
